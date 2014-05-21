@@ -1,0 +1,180 @@
+/*
+Developer: Qazi Islam
+Table of Contents
+HEADER - The Glitch Mob, logo, main menu
+MAINCONTENT - Discography 
+FOOTER – Copyright Qazi Islam
+
+
+*/
+body
+{padding-top:50px;}
+.starter-template{padding:40px 15px;text-align:center;}
+/* Main*/
+#glitchmob{
+background:url(../_images/glitch_mob1.png)repeat-x;
+width:100%;
+height: 794px;
+    background-size: cover;
+
+}
+/*Video*/
+div#video{
+background:url(../_images/video.png)repeat-x;
+height: 794px;
+}
+iframe{
+width:100%;
+height: 792px;
+
+float: right;
+}
+/*Bio*/
+#bio{
+background:url(../_images/Bio.png)repeat-x;
+width:100%;
+background-size: cover;
+    padding-top: 20em;
+    
+}
+#biography {
+    color: black;
+    font-size: 20px;
+    float: right;
+    width: 56%;
+    padding-right: 2em;
+    text-align: center;
+}
+.bioh2{
+    color:black;
+    
+}
+
+div#discography{
+background:url(../_images/the_glitch_mob_tribute.png)repeat-x;
+width:100%;
+background-size: cover;
+}
+/*Tours*/
+div#tourDates{
+ background:url(../_images/tour.png)repeat-x;
+width:100%;
+background-size: cover;
+
+}
+div.container {
+width:100%;
+height:100%;
+color: white;
+overflow:hidden;
+    padding:0;
+}
+table.table.table{
+width: 50%;
+margin-bottom: 20px;
+
+}
+table.table:hover{
+background:transparent;
+}
+/*Form*/
+
+div#signup {
+    color:black;
+    float: center;
+}
+#form{
+    color:black;
+    background:url(../_images/form.png) repeat-x;
+    background-color: black;
+    background-size: cover;
+}
+
+ /*Discography*/   
+.lovedeath{
+    position:relative;
+    float:inherit;
+}
+#social-icons{
+ background-color: black;
+    float: right;
+} 
+#social{
+    background-color: 
+        black;
+}
+#qazi {
+    background-color: black;
+}
+
+
+@media screen and (max-width: 1465px) {
+    #bio {
+        padding-top: 0em;
+        
+    }
+}
+@media screen and (max-width: 1855px) {
+    #glitchmob {
+        background-color: #000;
+        background-image: url(../_images/Tablet.png);
+        
+    }
+@media screen and (max-width: 1199px) {
+    #bio {
+        padding-top: 50em;
+        
+    }
+}
+@media screen and (max-width: 770px) {
+    #glitchmob {
+        background-color: #000;
+        background-image: url(../_images/Tablet.png);
+        
+    }
+    @media screen and (max-width: 800px) {
+    #bio {
+        background-image: url(../_images/Bio_Tablet.png);
+        }
+    }
+@media screen and (max-width: 768px) {
+    #glitchmob {
+        background-color: #000;
+        background-image: url(../_images/Tablet.png);}
+    #bio {
+        background-image: url(../_images/Bio_Tablet.png);
+        }
+        
+    }
+    @media screen and (max-width: 680px) {
+    #glitchmob {
+        background-color: #000;
+        background-image: url(../_images/Tablet.png);}
+        #bio {
+        background-image: url(../_images/Bio_Tablet.png);
+        }
+    }
+    #bio {
+        background-color: #fff;
+        background-image: url(../_images/Bio_Tablet.png);
+        padding-top: 32em;
+    }
+    #biography {
+        width: 100%;
+    }
+}
+    @media screen and (max-width: 568px) {
+    #glitchmob {
+        background-image: url(../_images/Tablet.png);
+        
+    }
+    }
+@media screen and (max-width: 490px) {
+    #glitchmob {
+        background-image: url(../_images/Phone.png);
+        
+    }
+    #bio {
+        padding-top: 20em;
+    }
+}
